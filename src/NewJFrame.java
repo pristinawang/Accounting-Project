@@ -467,7 +467,7 @@ public class NewJFrame extends javax.swing.JFrame {
         DefaultTableModel model = (DefaultTableModel) table.getModel();
         FileReader fr = null;
 			try {
-				fr=new FileReader("/Users/pristy/Documents/NCHU/NetBeansProjects/finalproject2/text.txt");
+				fr=new FileReader("/Users/pristy/Documents/NCHU/2019 Spring Semester/oop/NetBeansProjects/finalproject2/text.txt");
 			}catch (IOException e) {
 				System.out.println("file open error");
 				System.exit(-1);
@@ -545,7 +545,7 @@ public class NewJFrame extends javax.swing.JFrame {
         String newLine = System.getProperty("line.separator");
         
 			try {
-				fw=new FileWriter("/Users/pristy/Documents/NCHU/NetBeansProjects/finalproject2/text.txt");
+				fw=new FileWriter("/Users/pristy/Documents/NCHU/2019 Spring Semester/oop/NetBeansProjects/finalproject2/text.txt");
                                 BufferedWriter bw=new BufferedWriter(fw);
                                 
                                 for(int i= 0; i < table.getRowCount(); i++){//row
@@ -585,7 +585,7 @@ public class NewJFrame extends javax.swing.JFrame {
         String newLine = System.getProperty("line.separator");
         
 			try {
-				fw=new FileWriter("/Users/pristy/Documents/NCHU/NetBeansProjects/finalproject2/text.txt");
+				fw=new FileWriter("/Users/pristy/Documents/NCHU/2019 Spring Semester/oop/NetBeansProjects/finalproject2/text.txt");
                                 BufferedWriter bw=new BufferedWriter(fw);
                                 
                                 for(int i= 0; i < table.getRowCount(); i++){//row
@@ -644,7 +644,7 @@ public class NewJFrame extends javax.swing.JFrame {
         String newLine = System.getProperty("line.separator");
         
 			try {
-				fw=new FileWriter("/Users/pristy/Documents/NCHU/NetBeansProjects/finalproject2/text.txt");
+				fw=new FileWriter("/Users/pristy/Documents/NCHU/2019 Spring Semester/oop/NetBeansProjects/finalproject2/text.txt");
                                 BufferedWriter bw=new BufferedWriter(fw);
                                 
                                 for(int i= 0; i < table.getRowCount(); i++){//row
@@ -678,7 +678,7 @@ public class NewJFrame extends javax.swing.JFrame {
         String newLine = System.getProperty("line.separator");
         
 			try {
-				fw=new FileWriter("/Users/pristy/Documents/NCHU/NetBeansProjects/finalproject2/text.txt");
+				fw=new FileWriter("/Users/pristy/Documents/NCHU/2019 Spring Semester/oop/NetBeansProjects/finalproject2/text.txt");
                                 BufferedWriter bw=new BufferedWriter(fw);
                                 
                                 for(int i= 0; i < table.getRowCount(); i++){//row
@@ -723,7 +723,7 @@ public class NewJFrame extends javax.swing.JFrame {
         datefinal=years+monthss+dayss;
         FileReader fr = null;
 			try {
-				fr=new FileReader("/Users/pristy/Documents/NCHU/NetBeansProjects/finalproject2/text.txt");
+				fr=new FileReader("/Users/pristy/Documents/NCHU/2019 Spring Semester/oop/NetBeansProjects/finalproject2/text.txt");
 			}catch (IOException e) {
 				System.out.println("file open error");
 				System.exit(-1);
@@ -762,7 +762,7 @@ public class NewJFrame extends javax.swing.JFrame {
         model.setRowCount(0);
         FileReader fr = null;
 			try {
-				fr=new FileReader("/Users/pristy/Documents/NCHU/NetBeansProjects/finalproject2/text.txt");
+				fr=new FileReader("/Users/pristy/Documents/NCHU/2019 Spring Semester/oop/NetBeansProjects/finalproject2/text.txt");
 			}catch (IOException e) {
 				System.out.println("file open error");
 				System.exit(-1);

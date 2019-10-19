@@ -23,7 +23,7 @@ import java.io.*;
 			int totalspending=0;
 			FileReader fr = null;
 			try {
-				fr=new FileReader("/Users/pristy/Desktop/text.txt");
+				fr=new FileReader("/Users/pristy/Documents/NCHU/2019 Spring Semester/oop/NetBeansProjects/finalproject2/text.txt");
 			}catch (IOException e) {
 				System.out.println("file open error");
 				System.exit(-1);
@@ -74,7 +74,7 @@ import java.io.*;
 			// file open
 			FileReader fr = null;
 			try {
-				fr=new FileReader("/Users/pristy/Desktop/text.txt");
+				fr=new FileReader("/Users/pristy/Documents/NCHU/2019 Spring Semester/oop/NetBeansProjects/finalproject2/text.txt");
 			}catch (IOException e) {
 				System.out.println("file open error");
 				System.exit(-1);
@@ -100,7 +100,7 @@ import java.io.*;
 				}
 				FileWriter fw = null;
 				try {
-					fw=new FileWriter("/Users/pristy/Desktop/text.txt",true);
+					fw=new FileWriter("/Users/pristy/Documents/NCHU/2019 Spring Semester/oop/NetBeansProjects/finalproject2/text.txt",true);
 				}catch (IOException e) {
 					System.out.println("file open error");
 					System.exit(-1);
@@ -130,7 +130,7 @@ import java.io.*;
 					}
 					FileWriter fw = null;
 					try {
-						fw=new FileWriter("/Users/pristy/Desktop/text.txt",true);
+						fw=new FileWriter("/Users/pristy/Documents/NCHU/2019 Spring Semester/oop/NetBeansProjects/finalproject2/text.txt",true);
 					}catch (IOException e) {
 						System.out.println("file open error");
 						System.exit(-1);
