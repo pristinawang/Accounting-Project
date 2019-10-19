@@ -14,7 +14,7 @@ SpendIn is a simple accounting program written in Java.
 
 ## Splash Screen
 
-![Imgur](https://i.imgur.com/GWxOnAS.jpg)
+![Imgur](https://i.imgur.com/LlqzrFs.jpg)
 
 ## Home Screen 
 ![Imgur](https://i.imgur.com/t8zcyQI.jpg)
