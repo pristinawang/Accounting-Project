@@ -1,12 +1,14 @@
-# Accounting-Project
+# Accounting Program - SpendIn 
 
-A Pokedex iOS application that stores all of the information for the original Pokemon.
+SpendIn is a simple accounting program written in Java.
 
-# What I Learned
+## Functions
 
-* Parse CSV files
-* Custom collection view delegate, data source, flow layout
-* Search bar & search filtering
-* Practice API, CocoaPods, & AlamoFire integration
-* Download & parse data
-* & much more
+Add expense transactions
+Edit past transactions
+Delete past transaction
+Search transaction history
+Calculate total expense
+Import data from .txt
+Update data in .txt
+
